@@ -10,8 +10,7 @@ class CurrencyCollection
 
     public function __construct(array $currencies = [])
     {
-        foreach ($currencies as $isoCode)
-        {
+        foreach ($currencies as $isoCode) {
             $this->add(new Currency($isoCode));
         }
     }
@@ -29,8 +28,7 @@ class CurrencyCollection
     public function getIsoCodes(): array
     {
         $isoCodes = [];
-        foreach ($this->getCurrencies() as $currency)
-        {
+        foreach ($this->getCurrencies() as $currency) {
             /** @var  Currency $currency */
             $isoCodes[] = $currency->getIsoCode();
         }

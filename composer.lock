@@ -4,8 +4,56 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61806e8848a5cfda1a7d1d8f2544ec0a",
+    "content-hash": "6667ad7b72c357360f8193a0bd442943",
     "packages": [
+        {
+            "name": "fastforex/fastforex-php-client",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fastforex/fastforex-php-client.git",
+                "reference": "87fba717e3b1a6cd86cc7e2c8ff1f088ffebfedf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fastforex/fastforex-php-client/zipball/87fba717e3b1a6cd86cc7e2c8ff1f088ffebfedf",
+                "reference": "87fba717e3b1a6cd86cc7e2c8ff1f088ffebfedf",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "overtrue/phplint": "^2.3",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FastForex\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "fastFOREX",
+                    "email": "support@whamsoftware.com"
+                }
+            ],
+            "description": "PHP client for fastFOREX.io Currency Exchange Rate API",
+            "homepage": "https://www.fastforex.io",
+            "support": {
+                "issues": "https://github.com/fastforex/fastforex-php-client/issues",
+                "source": "https://github.com/fastforex/fastforex-php-client/tree/v1.3.0"
+            },
+            "time": "2022-08-05T16:11:13+00:00"
+        },
         {
             "name": "graham-campbell/result-type",
             "version": "v1.1.1",

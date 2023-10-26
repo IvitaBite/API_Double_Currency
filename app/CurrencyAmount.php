@@ -9,9 +9,10 @@ class CurrencyAmount
     private int $amount;
 
     private const MULTIPLIER = 1000;
+
     public function __construct(float $amount)
     {
-        $this->amount = (int) ($amount * self::MULTIPLIER);
+        $this->amount = (int)($amount * self::MULTIPLIER);
     }
 
     public function getIntAmount(): int
